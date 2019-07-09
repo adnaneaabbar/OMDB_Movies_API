@@ -1,0 +1,19 @@
+<% include partials/header %>
+
+<h1>Search for a movie !</h1>
+<form action="/results" method="GET">
+
+    <div class="row container">
+        <div class="col-lg-6">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Searching for ?" name="search">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Search !</button>
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+
+</form>
+
+<% include partials/footer %>

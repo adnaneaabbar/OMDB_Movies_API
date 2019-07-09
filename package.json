@@ -1,0 +1,24 @@
+{
+  "name": "omdb_movies_api",
+  "version": "1.0.0",
+  "description": "first api based project",
+  "main": "MovieAPI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parzival69/OMDB_Movies_API.git"
+  },
+  "author": "Adnane Aabbar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parzival69/OMDB_Movies_API/issues"
+  },
+  "homepage": "https://github.com/parzival69/OMDB_Movies_API#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
